@@ -3,8 +3,8 @@
 ## 🚀 Overview
 This project focuses on generating synthetic tabular data for a bank customer churn dataset using two approaches:
 
-- GReaT (LLM-based) — converts tabular data into text and uses GPT-2
-- TabDDPM (Diffusion-based) — directly models tabular data distributions
+- GReaT (LLM-based) — converts tabular data into text and uses GPT-2  
+- TabDDPM (Diffusion-based) — directly models tabular data distributions  
 
 The goal is to generate data that is:
 - Realistic  
@@ -15,9 +15,9 @@ The goal is to generate data that is:
 
 ## 🎯 Problem Statement
 Banking datasets are:
-- Sensitive (privacy constraints)
-- Limited (restricted access)
-- Imbalanced (few churn cases)
+- Sensitive (privacy constraints)  
+- Limited (restricted access)  
+- Imbalanced (few churn cases)  
 
 This project generates synthetic data to safely replace or augment real data.
 
@@ -63,7 +63,6 @@ Features include:
 ### Phase 3: Evaluation
 
 Metrics used:
-
 - JSD (Jensen-Shannon Distance) → distribution similarity  
 - Correlation L2 → feature relationships  
 - Density → realism  
@@ -116,17 +115,20 @@ Solutions:
 ---
 
 ## 📁 Project Structure
-data/
-preprocessing/
-great_model/
-tabddpm_model/
-evaluation/
-outputs/
-  synthetic_great.csv
-  synthetic_tabddpm.csv
-  plots/
-  reports/
-  
+
+    project-root/
+    ├── data/
+    ├── preprocessing/
+    ├── great_model/
+    ├── tabddpm_model/
+    ├── evaluation/
+    ├── outputs/
+    │   ├── synthetic_great.csv
+    │   ├── synthetic_tabddpm.csv
+    │   ├── plots/
+    │   └── reports/
+    └── README.md
+
 ---
 
 ## 🔮 Future Work
