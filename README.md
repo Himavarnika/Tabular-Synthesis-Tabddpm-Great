@@ -154,7 +154,3 @@ TabDDPM is more suitable for high-quality synthetic tabular data generation.
 - HuggingFace Transformers  
 
 ---
-
-## 👩‍💻 Author
-Your Name  
-https://github.com/your-username
